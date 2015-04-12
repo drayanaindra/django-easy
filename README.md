@@ -12,12 +12,6 @@ Create and go to folder:
     $ mkdir DjangoProject && cd DjangoProject
 
 
-Clone this project:
-
-
-    $ django-admin.py startproject --template=https://github.com/drayanaindra/django-easy/archive/master.zip --extension=py,rst,html django_easy
-
-
 Create virtual environment:
 
 
@@ -28,6 +22,12 @@ Active virtual environmemt:
 
 
     $ source project_env/bin/active
+
+
+Clone this project:
+
+
+    $ django-admin.py startproject --template=https://github.com/drayanaindra/django-easy/archive/master.zip --extension=py,rst,html django_easy
 
 
 Install requirements:
