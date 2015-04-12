@@ -1,0 +1,15 @@
+{% load static %}
+
+<html>
+  <head>
+    <title>Django Easy | Easy Development, Easy Deployment</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      {% block content %}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio voluptatem, corrupti ad illum provident optio quasi voluptate accusamus doloremque sit, architecto est nobis numquam minus ut ullam vero illo. Cupiditate.
+      {% endblock content %}
+    </div>
+  </body>
+</html>
