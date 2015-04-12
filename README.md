@@ -21,7 +21,7 @@ Clone this project:
 Create virtual environment:
 
 
-    $ vurtualenv project_env
+    $ virtualenv project_env
 
 
 Active virtual environmemt:
