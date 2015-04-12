@@ -4,6 +4,14 @@ Django-easy is bootstrap project of django with standard directory and settings.
 
 ### How to Use
 
+Create folder with name **DjangoProject**
+
+Create and go to folder:
+
+   
+    $ mkdir DjangoProject && cd DjangoProject
+
+
 Clone this project:
 
 
@@ -13,16 +21,38 @@ Clone this project:
 Create virtual environment:
 
 
-    $ vurtuealenv django_easy
+    $ vurtuealenv project_env
 
 
 Active virtual environmemt:
 
 
-    $ source django_easy/bin/active
+    $ source project_env/bin/active
 
 
 Install requirements:
 
 
     $ pip install requirements/base.txt
+
+
+Go to root project directory:
+
+
+    $ cd djeasy
+
+
+Copy or move manage template:
+
+
+    $ cp manage_local.py.template manage_local.py
+    $ chmod +x manage_local.py
+
+
+Run server:
+
+
+    $ ./manage_local.py runserver
+
+
+and open your browser and type this url `http://127.0.0.1:8000`
