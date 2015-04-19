@@ -9,5 +9,5 @@ urlpatterns = [
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^accounts/', include('userena.urls')),
-    url(r'^$', TemplateView.as_view(template_name='layout_1.html')),
+    url(r'^$', TemplateView.as_view(template_name='main.html')),
 ]

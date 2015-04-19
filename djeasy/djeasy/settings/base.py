@@ -90,6 +90,7 @@ TEMPLATE_DIRS = (
 
 WSGI_APPLICATION = 'djeasy.wsgi.application'
 
+SITE_ID = 1
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
@@ -147,3 +148,4 @@ AUTH_PROFILE_MODULE = 'accounts.MyProfile'
 USERENA_SIGNIN_REDIRECT_URL = '/'
 LOGIN_URL = '/accounts/signin/'
 LOGOUT_URL = '/accounts/signout/'
+USERENA_REDIRECT_ON_SIGNOUT = '/'
