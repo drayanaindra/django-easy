@@ -2,14 +2,49 @@
 
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Django Easy | Easy Development, Easy Deployment</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/creative.css' %}" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
   </head>
-  <body>
-    <div class="container">
-      {% block content %}
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio voluptatem, corrupti ad illum provident optio quasi voluptate accusamus doloremque sit, architecto est nobis numquam minus ut ullam vero illo. Cupiditate.
-      {% endblock content %}
-    </div>
+  <body id="page-top">
+    {% include "partial/nav.html" %}
+    {% block content %}
+    {% endblock content %}
+
+    <!-- jQuery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'js/jquery.fittext.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'js/creative.js' %}"></script>
   </body>
 </html>

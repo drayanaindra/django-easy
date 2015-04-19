@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="row">
+  {% block header %} {% endblock header %}
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    {% block left_side %}
+    {% endblock left_side %}
+  </div>
+  <div class="col-md-6">
+    {% block right_side %}
+    {% endblock right_side %}
+  </div>
+</div>
+
+{% endblock content %}
