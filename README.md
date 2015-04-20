@@ -8,7 +8,7 @@ Create folder with name **DjangoProject**
 
 Create and go to folder:
 
-   
+
     $ mkdir DjangoProject && cd DjangoProject
 
 
@@ -44,15 +44,22 @@ Go to root project directory:
 
 Copy or move manage template:
 
+For local
 
-    $ cp manage_local.py.template manage_local.py
-    $ chmod +x manage_local.py
+    $ cp ../deployment/manage_local.py.template manage.py
+    $ chmod +x manage.py
+
+
+For production
+
+    $ cp ../deployment/manage_production.py.template manage.py
+    $ chmod +x manage.py
 
 
 Run server:
 
 
-    $ ./manage_local.py runserver
+    $ ./manage.py runserver
 
 
 and open your browser and type this url `http://127.0.0.1:8000`
