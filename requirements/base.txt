@@ -1,13 +1,13 @@
 Django==1.7
-Fabric==1.10.1
-Pillow==2.8.1
+django-bootstrap-form==3.2
 django-guardian==1.2.5
 django-userena==1.4.0
 easy-thumbnails==2.2
 ecdsa==0.13
+Fabric==1.10.1
 html2text==2015.4.14
 paramiko==1.15.2
+Pillow==2.8.1
 pycrypto==2.6.1
 six==1.9.0
 uWSGI==2.0.10
-wsgiref==0.1.2
