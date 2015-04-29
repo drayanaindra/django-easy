@@ -33,7 +33,7 @@ Clone this project:
 Install requirements:
 
 
-    $ pip install requirements/base.txt
+    $ pip install -r requirements/base.txt
 
 
 Go to root project directory:
