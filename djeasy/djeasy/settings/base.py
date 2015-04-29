@@ -45,6 +45,7 @@ THIRD_PARTY_APPS = (
     'userena',
     'guardian',
     'easy_thumbnails',
+    'bootstrapform',
 )
 
 LOCAL_APPS = (
